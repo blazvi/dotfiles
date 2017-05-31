@@ -33,6 +33,32 @@ brew cask install xquartz
 brew cask install iterm2
 brew cask install google-chrome
 brew cask install google-chrome-canary
+brew cask install android-file-transfer
+brew cask install atom
+brew cask install dropbox
+brew cask install evernote
+brew cask install filezilla
+brew cask install firefox
+brew cask install garmin-communicator
+brew cask install google-drive
+brew cask install handbrake
+brew cask install imagealpha
+brew cask install imageoptim
+brew cask install jaikoz
+brew cask install kindle
+brew cask install mattr-slate
+brew cask install messenger
+brew cask install opera
+brew cask install skype
+brew cask install slack
+brew cask install sourcetree
+brew cask install tunnelblick
+brew cask install virtualbox
+brew cask install vlc
+brew cask install tripmode
+brew cask install teamviewer
+brew cask install charless
+
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
@@ -75,6 +101,7 @@ brew install xpdf
 brew install xz
 
 # Install other useful binaries.
+brew install autojump
 brew install ack
 brew install dark-mode
 brew install git
@@ -90,6 +117,9 @@ brew install tree
 brew install vbindiff
 brew install webkit2png
 brew install zopfli
+brew install nvm
+brew install rename
+brew install youtube-dl
 
 # Remove outdated versions from the cellar.
 brew cleanup
