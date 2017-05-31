@@ -58,6 +58,7 @@ brew cask install vlc
 brew cask install tripmode
 brew cask install teamviewer
 brew cask install charless
+brew cask install adobe-creative-cloud
 
 
 # Install `wget` with IRI support.
