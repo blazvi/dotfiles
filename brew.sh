@@ -8,6 +8,15 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+brew tap caskroom/versions
+
+brew install zsh
+brew install zsh-completions
+brew install antigen
+
+sudo sh -c "echo $(which zsh) >> /etc/shells"
+chsh -s /usr/local/bin/zsh
+
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
@@ -19,13 +28,18 @@ brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 
+brew cask install java
+brew cask install xquartz
+brew cask install iterm2
+brew cask install google-chrome
+brew cask install google-chrome-canary
+
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
 brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install font tools.

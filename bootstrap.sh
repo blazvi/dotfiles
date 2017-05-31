@@ -10,6 +10,7 @@ function doIt() {
 		--exclude ".osx" \
 		--exclude "bootstrap.sh" \
         --exclude "dict" \
+        --exclude "theme" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
